@@ -76,8 +76,8 @@ class Boat extends WaterTransport {
     }
 }
 //Water Transport Subclass: Yacht
-class Ship extends WaterTransport {
-    public Ship() {
-        super("Ship", 20);
+class Yacht extends WaterTransport {
+    public Yacht() {
+        super("Yacht", 20);
     }
 }

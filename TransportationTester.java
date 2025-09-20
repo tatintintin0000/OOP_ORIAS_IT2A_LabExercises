@@ -8,13 +8,13 @@ public class TransportationTester {
         Truck truck = new Truck();
         // Water Transport
         Boat boat = new Boat();
-        Ship ship = new Ship();
+        Yacht yacht = new Yacht();
 
         //Test all Transports
         Transportation[] transports = {
             helicopter, airplane,
             car, truck,
-            boat, ship
+            boat, yacht
         };
         for (Transportation t: transports) {
             t.displayInfo();
